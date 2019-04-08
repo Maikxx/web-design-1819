@@ -40,6 +40,8 @@ Examples of good date pickers that I have found are:
 * [http://www.oaa-accessibility.org/examplep/datepicker1/]()
 * [http://haltersweb.github.io/Accessibility/date-picker.html]()
 
+You can [view the 🚀 demo 🚀 here](https://web-design-week1.netlify.com/).
+
 ## Sources
 
 * [Get amount of days in a given month for a given year](https://dzone.com/articles/determining-number-days-month).
