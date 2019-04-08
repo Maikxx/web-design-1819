@@ -30,6 +30,16 @@ Despite being pretty known in the community, several large Dutch websites have v
     I consider this implementation to be very bad, since it just doesn't do everything that I would want in this functionality.
     ![9292 Example](./docs/9292_example.png)
 
+More things that I have noticed about these date pickers, is that they are mainly built using JQuery and JQuery UI, which means they (probably) are built a pretty long time ago.
+
+Examples of good date pickers that I have found are:
+
+* [http://accessibility.athena-ict.com/aria/examples/datepicker2.shtml]()
+* [http://whatsock.com/tsg/Coding%20Arena/ARIA%20Date%20Pickers/ARIA%20Date%20Picker%20%28Basic%29/demo.htm]()
+* [https://assets.cms.gov/resources/framework/2.0/Pages/datepicker.html]()
+* [http://www.oaa-accessibility.org/examplep/datepicker1/]()
+* [http://haltersweb.github.io/Accessibility/date-picker.html]()
+
 ## License
 
 This repository is licensed as [MIT](LICENSE) by [Maikel van Veen](https://github.com/maikxx).
