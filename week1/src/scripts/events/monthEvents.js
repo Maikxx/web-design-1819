@@ -5,6 +5,8 @@ export function setupMonthEvents(state) {
         const monthButtons = monthContainer.querySelectorAll('.ButtonBlock')
 
         if (monthButtons && monthButtons.length > 0) {
+            const changeMonthEvent = new CustomEvent('monthChanged')
+
             monthButtons.forEach(button => {
                 button.addEventListener('click', () => {
                     const monthNumber = Number(button.getAttribute('data-value'))
@@ -14,6 +16,7 @@ export function setupMonthEvents(state) {
                     }
 
                     state.set('selectedMonth', monthNumber)
+                    window.dispatchEvent(changeMonthEvent)
                 })
             })
         }

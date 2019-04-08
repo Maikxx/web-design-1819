@@ -8,6 +8,7 @@ import { setupDayEvents } from './events/dayEvents'
     const state = new State({
         selectedYear: new Date().getFullYear(),
         selectedMonth: new Date().getMonth(),
+        selectedDay: new Date().getDate(),
     })
 
     setupYearEvents(state)

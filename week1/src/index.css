@@ -141,3 +141,28 @@ input {
     padding: 1em;
     min-width: 340px;
 }
+
+#full-date {
+    text-align: center;
+    font-size: 5em;
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+}
+
+.Column--center {
+    justify-content: center;
+    align-items: center;
+}
+
+#native {
+    visibility: hidden;
+    display: none;
+}
+
+#native:target {
+    visibility: visible;
+    display: unset;
+}
