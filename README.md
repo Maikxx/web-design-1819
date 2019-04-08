@@ -1,8 +1,15 @@
 # Web Design
 
+## Table of Contents
+
+1. [Exercises](#Exercises)
+    1. [Excersice 1](#Excersice-1)
+2. [Sources](#Sources)
+3. [License](#License)
+
 ## Exercises
 
-### Excersice 1 - Monday
+### Excersice 1
 
 During this excersise we had to focus on the following points in our newly designed accessible tools:
 
