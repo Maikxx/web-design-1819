@@ -10,15 +10,17 @@ function createYearButtons(fromYear) {
     const years = [currentYear - 1, currentYear, currentYear + 1]
     changeNavigationButtons(currentYear)
 
-    years.forEach(year => {
-        const buttonBlock = document.createElement('a')
+    years.forEach(createYearButton)
+}
 
-        buttonBlock.classList.add('ButtonBlock')
-        buttonBlock.setAttribute('href', '#month')
-        buttonBlock.innerText = year
+function createYearButton(year) {
+    const buttonBlock = document.createElement('a')
 
-        buttonContainer.appendChild(buttonBlock)
-    })
+    buttonBlock.classList.add('ButtonBlock')
+    buttonBlock.setAttribute('href', '#month')
+    buttonBlock.innerText = year
+
+    buttonContainer.appendChild(buttonBlock)
 }
 
 function changeSubsetYears(direction) {
