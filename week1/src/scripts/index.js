@@ -1,4 +1,14 @@
 import 'regenerator-runtime'
-import { createYearButtons } from './events/yearEvents'
+import { setupYearEvents } from './events/yearEvents'
+import { State } from './state'
+import { setupMonthEvents } from './events/monthEvents'
 
-createYearButtons()
+(() => {
+    const state = new State({
+        selectedYear: new Date().getFullYear(),
+        selectedMonth: new Date().getMonth(),
+    })
+
+    setupYearEvents(state)
+    setupMonthEvents(state)
+})()
