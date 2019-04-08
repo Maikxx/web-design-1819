@@ -21,13 +21,19 @@ When researching accessible date pickers, I found that it is a pretty known them
 Despite being pretty known in the community, several large Dutch websites have varying implementations of the date picker:
 
 * [NS](https://www.ns.nl) for example has a very decent and accessible date picker for choosing a departure date.
+
     In this date picker you can navigate the dates with the arrow keys, also enabling the user to navigate multiple months by just pressing the down key.
+
     The only negative things I can find about this implementation is that you can not target the 'switch months' buttons at the top of the date picker with the tab keys.
+
     ![NS Example](./docs/ns_example.png)
 
 * [9292](https://www.9292.nl). This date picker is very similar to the date picker from the NS, with the subtle difference that you don't see in the pop-up window when you navigate beyond the current month.
+
     You can also not navigate to any other day in the week when navigating beyond the scope of the pop-up window.
+
     I consider this implementation to be very bad, since it just doesn't do everything that I would want in this functionality.
+
     ![9292 Example](./docs/9292_example.png)
 
 More things that I have noticed about these date pickers, is that they are mainly built using JQuery and JQuery UI, which means they (probably) are built a pretty long time ago.
