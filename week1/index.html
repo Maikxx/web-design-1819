@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./src/index.css">
+    <title>Accessible date picker</title>
+</head>
+<body>
+    <main>
+        <a href="#native">Give me the native date picker</a>
+        <section id="year">
+            <h1>Select a year below</h1>
+            <div class="ButtonContainer ButtonContainer--year"></div>
+            <div class="NavigationLinks">
+                <button type="button" id="previous-year-set"></button>
+                <button type="button" id="next-year-set"></button>
+            </div>
+        </section>
+        <section id="month">
+            <h1>Select a month below</h1>
+            <div class="ButtonContainer ButtonContainer--month">
+                <a href="#day" class="ButtonBlock ButtonBlock--small">January</a>
+                <a href="#day" class="ButtonBlock ButtonBlock--small">February</a>
+                <a href="#day" class="ButtonBlock ButtonBlock--small">March</a>
+                <a href="#day" class="ButtonBlock ButtonBlock--small">April</a>
+                <a href="#day" class="ButtonBlock ButtonBlock--small">May</a>
+                <a href="#day" class="ButtonBlock ButtonBlock--small">June</a>
+                <a href="#day" class="ButtonBlock ButtonBlock--small">July</a>
+                <a href="#day" class="ButtonBlock ButtonBlock--small">August</a>
+                <a href="#day" class="ButtonBlock ButtonBlock--small">September</a>
+                <a href="#day" class="ButtonBlock ButtonBlock--small">Oktober</a>
+                <a href="#day" class="ButtonBlock ButtonBlock--small">November</a>
+                <a href="#day" class="ButtonBlock ButtonBlock--small">December</a>
+            </div>
+        </section>
+        <section id="day">
+            <h1>Select a day below</h1>
+        </section>
+        <section id="native">
+            <h1>Select a date below</h1>
+            <form action="#">
+                <fieldset>
+                    <legend>
+                        Enter your desired date
+                    </legend>
+                    <label>
+                        Date
+                        <input type="date">
+                    </label>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <script src="./src/scripts/index.js"></script>
+</body>
+</html>

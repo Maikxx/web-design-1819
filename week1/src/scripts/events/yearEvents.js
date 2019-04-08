@@ -1,23 +1,20 @@
-createYearButtons()
+const previousYearButton = document.getElementById('previous-year-set')
+const nextYearButton = document.getElementById('next-year-set')
+const buttonContainer = document.querySelector('.ButtonContainer--year')
 
-const previousButton = document.getElementById('previous-set')
-const nextButton = document.getElementById('next-set')
-const buttonContainer = document.querySelector('.ButtonContainer')
-
-previousButton.addEventListener('click', changeSubsetYears('back'))
-nextButton.addEventListener('click', changeSubsetYears('forwards'))
+previousYearButton.addEventListener('click', changeSubsetYears('back'))
+nextYearButton.addEventListener('click', changeSubsetYears('forwards'))
 
 function createYearButtons(fromYear) {
     const currentYear = fromYear || new Date().getFullYear()
     const years = [currentYear - 1, currentYear, currentYear + 1]
-    const buttonContainer = document.querySelector('.ButtonContainer')
+    changeNavigationButtons(currentYear)
 
     years.forEach(year => {
         const buttonBlock = document.createElement('a')
 
         buttonBlock.classList.add('ButtonBlock')
-        buttonBlock.classList.add('focussable')
-        buttonBlock.setAttribute('href', '#')
+        buttonBlock.setAttribute('href', '#month')
         buttonBlock.innerText = year
 
         buttonContainer.appendChild(buttonBlock)
@@ -39,7 +36,15 @@ function changeSubsetYears(direction) {
 
         buttonContainer.innerHTML = ''
         createYearButtons(nextSubsetYear)
-        previousButton.innerText = `${nextSubsetYear - 4} - ${nextSubsetYear - 2}`
-        nextButton.innerText = `${nextSubsetYear + 2} - ${nextSubsetYear + 4}`
+        changeNavigationButtons(nextSubsetYear)
     }
+}
+
+function changeNavigationButtons(year) {
+    previousYearButton.innerText = `${year - 4} - ${year - 2}`
+    nextYearButton.innerText = `${year + 2} - ${year + 4}`
+}
+
+module.exports = {
+    createYearButtons,
 }
