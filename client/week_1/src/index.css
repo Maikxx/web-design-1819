@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    font-family: inherit;
+    line-height: inherit;
+    padding: 0;
+    color: inherit;
+    box-sizing: inherit;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+label,
+img,
+audio,
+video,
+canvas,
+meter,
+progress,
+svg,
+iframe {
+    display: block;
+}
+
+button {
+    font-size: inherit;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+    content: '';
+    content: none;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    overflow-x: hidden;
+    line-height: 1;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    width: 100%;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+}
+
+body main {
+    width: 100%;
+    padding: 2em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+}
+
+.ButtonContainer,
+.NavigationLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ButtonBlock {
+    font-size: 5em;
+    display: block;
+    text-decoration: none;
+    padding: 2em 0;
+    text-align: center;
+    flex: 1;
+}
+
+.NavigationLinks button {
+    flex: 1;
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
+}
+
+.ButtonBlock:hover,
+.ButtonBlock:focus,
+.NavigationLinks button:hover,
+.NavigationLinks button:focus {
+    text-decoration: underline;
+}
+
+legend {
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+label {
+    text-align: center;
+}
+
+input[type="number"] {
+    padding: 1em;
+    min-width: 340px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Accessible date picker</title>
+</head>
+<body>
+    <main>
+        <h1>Select a year below</h1>
+        <div class="ButtonContainer"></div>
+        <div class="NavigationLinks">
+            <button type="button" class="focussable" id="previous-set">Previous 3 years</button>
+            <button type="button" class="focussable" id="next-set">Next 3 years</button>
+        </div>
+        <form action="#" class="YearForm">
+            <fieldset>
+                <legend>
+                    Alternatively, enter your year here
+                </legend>
+                <label>
+                    Year
+                    <input type="number" max="2100" min="1900" class="focussable">
+                </label>
+            </fieldset>
+        </form>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
