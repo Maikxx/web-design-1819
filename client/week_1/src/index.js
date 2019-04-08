@@ -39,5 +39,7 @@ function changeSubsetYears(direction) {
 
         buttonContainer.innerHTML = ''
         createYearButtons(nextSubsetYear)
+        previousButton.innerText = `${nextSubsetYear - 4} - ${nextSubsetYear - 2}`
+        nextButton.innerText = `${nextSubsetYear + 2} - ${nextSubsetYear + 4}`
     }
 }
