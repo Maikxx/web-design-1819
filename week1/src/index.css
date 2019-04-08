@@ -74,8 +74,7 @@ body main {
 }
 
 body main section {
-    padding: 2em;
-    height: 100vh;
+    padding: 10em 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,6 +106,10 @@ h1 {
 
 .ButtonBlock--small {
     font-size: 3em;
+}
+
+.ButtonBlock--tiny {
+    font-size: 1.5em;
 }
 
 .NavigationLinks button {

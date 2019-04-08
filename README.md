@@ -40,6 +40,10 @@ Examples of good date pickers that I have found are:
 * [http://www.oaa-accessibility.org/examplep/datepicker1/]()
 * [http://haltersweb.github.io/Accessibility/date-picker.html]()
 
+## Sources
+
+* [Get amount of days in a given month for a given year](https://dzone.com/articles/determining-number-days-month).
+
 ## License
 
 This repository is licensed as [MIT](LICENSE) by [Maikel van Veen](https://github.com/maikxx).
