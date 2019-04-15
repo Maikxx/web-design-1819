@@ -3,7 +3,8 @@
 ## Table of Contents
 
 1. [Exercises](#Exercises)
-    * [Exercise 1](#exercise-1)
+    * [Exercises Week 1](#exercises-week-1)
+    * [Exercises Week 2](#exercises-week-2)
 2. [Review sessions](#review-session)
     * [Week 1](#review-session-week-1)
 3. [Sources](#Sources)
@@ -13,7 +14,7 @@
 
 ## Exercises
 
-### Exercise 1
+### Exercises Week 1
 
 During this excersise we had to focus on the following points in our newly designed accessible tools:
 
@@ -58,6 +59,20 @@ Examples of good date pickers that I have found are:
 * [http://haltersweb.github.io/Accessibility/date-picker.html]()
 
 You can [view the 🚀 demo 🚀 here](https://web-design-week1.netlify.com/).
+
+### Exercises Week 2
+
+#### User scenario
+
+
+#### Design principles
+
+* **Clarity**: For Marijn, clarity is really important, since it releases the stress on him, preserved to him by websites with a lot of interactive elements at once. You should avoid having too much elements on any given section of the page to improve the users understanding of the interactive elements on the page. Buttons and links should also be clear from the get-go. In my project I added focus and hover states on all buttons and links to be very clear what can be interacted with.
+    It should also be very clear here for the user what the date is that he has currently selected.
+
+* **Keep users in control**: Since this product is especially created for Marijn, I wanted to give him as much options as possible within one demo application. An example I can give of this is that I gave Marijn the option to use the native date picker from the browser if he wished to use that over the custom made one.
+
+* **Consistency matters**: This principle is relating to the fact that similar elements with similar actions (like links) should look and behave (pretty much) the same. In this application I mainly seperated the links from the buttons in styling. Buttons having a border, while links always have an underline, even if they wouldn't navigate to another page.
 
 ## Review sessions
 

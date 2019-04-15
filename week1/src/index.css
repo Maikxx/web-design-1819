@@ -118,13 +118,13 @@ header nav {
 }
 
 header nav a {
-    text-decoration: none;
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+    text-decoration: underline;
+    transition: .3s ease color;
 }
 
 header nav a:focus,
 header nav a:hover {
-    text-decoration: underline;
+    color: #FF8749;
 }
 
 h1 {
