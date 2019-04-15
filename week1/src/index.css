@@ -115,6 +115,7 @@ h1 {
 .NavigationLinks button {
     flex: 1;
     font-size: 2em;
+    padding: 1em 2em;
     text-decoration: none;
     text-align: center;
 }
