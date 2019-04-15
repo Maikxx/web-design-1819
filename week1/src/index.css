@@ -56,6 +56,7 @@ q::before, q::after {
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -84,6 +85,17 @@ body main section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+}
+
+section + section::before {
+    content: '';
+    height: 2px;
+    position: absolute;
+    top: 0;
+    left: 10vw;
+    right: 10vw;
+    background-color: #008080;
 }
 
 header {
@@ -91,6 +103,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 5;
     padding: 1em;
     background-color: #008080;
     box-shadow: 0px 2px 5px 0px rgba(255, 255, 255, 0.25);
@@ -138,6 +151,8 @@ h1 {
     font-size: 5em;
     display: block;
     text-decoration: none;
+    transition: .2s all;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
     padding: 1em;
     text-align: center;
     flex: 1;
@@ -155,7 +170,8 @@ h1 {
     flex: 1;
     font-size: 2em;
     padding: 1em 2em;
-    text-decoration: none;
+    transition: .2s all;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
     text-align: center;
 }
 
@@ -163,7 +179,8 @@ h1 {
 .ButtonBlock:focus,
 .NavigationLinks button:hover,
 .NavigationLinks button:focus {
-    text-decoration: underline;
+    color: #FF8749;
+    text-shadow: 1px 1px rgba(255, 255, 255, 1);
 }
 
 legend {
