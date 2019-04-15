@@ -3,11 +3,12 @@
 ## Table of Contents
 
 1. [Exercises](#Exercises)
-    1. [Exercise 1](#exercise-1)
+    * [Exercise 1](#exercise-1)
 2. [Review sessions](#review-session)
-    1. [Week 1](#review-session-week-1)
+    * [Week 1](#review-session-week-1)
 3. [Sources](#Sources)
-4. [License](#License)
+4. [Process](#Process)
+5. [License](#License)
 
 ## Exercises
 
@@ -82,6 +83,12 @@ Tips for the project:
 * Take a look at access keys.
 * Focus on multiple small items.
 * It should initially just work for the user, then be pleasurable to use.
+
+## Process
+
+* [ ] Write a user scenario.
+* [ ] Explain how the exclusive design principles will work on this demo (as well as how to test it).
+* [ ] How to use Joshua Porters design principles in this excercise. (Explain how the principle works and how to implement it.)
 
 ## Sources
 
