@@ -7,6 +7,10 @@
     box-sizing: inherit;
 }
 
+*:focus {
+    outline-color: #FF8749;
+}
+
 *::before,
 *::after {
     box-sizing: inherit;
