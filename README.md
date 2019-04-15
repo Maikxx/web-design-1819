@@ -8,7 +8,8 @@
     * [Week 1](#review-session-week-1)
 3. [Sources](#Sources)
 4. [Process](#Process)
-5. [License](#License)
+5. [Project tips](#Project-tips)
+6. [License](#License)
 
 ## Exercises
 
@@ -76,19 +77,26 @@ We did get to know some things about him, for example:
 * Can be seen as spastic.
 * Is difficult to understand with his voice.
 
-Tips for the project:
+## Process
+
+* [ ] Write a user scenario.
+* [ ] Explain how the exclusive design principles will work on this demo (as well as how to test it).
+* [ ] How to use Joshua Porters design principles in this excercise. (Explain how the principle works and how to implement it.)
+
+## Project tips
 
 * Things may fail.
 * Make prototypes.
 * Take a look at access keys.
 * Focus on multiple small items.
 * It should initially just work for the user, then be pleasurable to use.
+* Multiple small tests are more effective than a few large tests.
 
-## Process
+You should not test _known knowns_, but instead test the _known uknowns_ and the _unknown unknowns_.
 
-* [ ] Write a user scenario.
-* [ ] Explain how the exclusive design principles will work on this demo (as well as how to test it).
-* [ ] How to use Joshua Porters design principles in this excercise. (Explain how the principle works and how to implement it.)
+**Usability**: Learnable, efficient, rememberable, mistake aversion, nice to use.
+
+If you want to get to know user needs, write a user scenario.
 
 ## Sources
 
