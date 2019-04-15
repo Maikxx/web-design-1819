@@ -9,7 +9,19 @@
 </head>
 <body>
     <main>
-        <a href="#native">Give me the native date picker</a>
+        <header>
+            <nav>
+                <a href="#native">Use native date picker</a>
+                <div id="full-date">
+                    Selection:&nbsp;
+                    <span id="YYYY">YYYY</span>
+                    <span id="divider">/</span>
+                    <span id="mm">mm</span>
+                    <span id="divider">/</span>
+                    <span id="dd">dd</span>
+                </div>
+            </nav>
+        </header>
         <section id="year">
             <h1>Select a year below</h1>
             <div class="ButtonContainer ButtonContainer--year"></div>
@@ -110,10 +122,6 @@
         <section id="day">
             <h1>Select a day below</h1>
             <div class="ButtonContainer ButtonContainer--day"></div>
-        </section>
-        <section class="Column Column--center">
-            <h1>Your full date</h1>
-            <span id="full-date"></span>
         </section>
         <section id="native">
             <h1>Select a date below</h1>

@@ -23,6 +23,24 @@ export function setupYearEvents(state) {
         buttonBlock.innerText = year
         buttonBlock.addEventListener('click', ({target}) => {
             state.set('selectedYear', Number(target.innerText))
+
+            const yearSpan = document.getElementById('YYYY')
+
+            if (yearSpan) {
+                yearSpan.innerText = Number(target.innerText)
+
+                const fullDate = document.getElementById('full-date')
+
+                if (fullDate) {
+                    if (fullDate) {
+                        fullDate.style.color = '#FF8749'
+
+                        setTimeout(() => {
+                            fullDate.style.color = 'white'
+                        }, 200)
+                    }
+                }
+            }
         })
 
         buttonContainer.appendChild(buttonBlock)

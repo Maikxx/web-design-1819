@@ -31,30 +31,28 @@ function createDayButton(state, buttonContainer) {
 
             state.set('selectedDay', day)
 
-            updateFullDate(state)
+            const daySpan = document.getElementById('dd')
+
+            if (daySpan) {
+                daySpan.innerText = String(day + 1).padStart(2, '0')
+
+                const fullDate = document.getElementById('full-date')
+
+                if (fullDate) {
+                    if (fullDate) {
+                        fullDate.style.color = '#FF8749'
+
+                        setTimeout(() => {
+                            fullDate.style.color = 'white'
+                        }, 200)
+                    }
+                }
+            }
         })
-        buttonBlock.innerText = day + 1
+
+        buttonBlock.innerText = String(day + 1).padStart(2, '0')
 
         buttonContainer.appendChild(buttonBlock)
-    }
-}
-
-function updateFullDate(state) {
-    const selectedYear = state.get('selectedYear')
-    const selectedMonth = state.get('selectedMonth')
-    const selectedDay = state.get('selectedDay')
-
-    const fullDateSpan = document.getElementById('full-date')
-    const dateExists = selectedYear
-        && typeof selectedMonth === 'number'
-        && typeof selectedDay === 'number'
-
-    if (fullDateSpan && dateExists) {
-        const fullDate = new Date(selectedYear, selectedMonth, selectedDay + 1)
-
-        if (fullDate) {
-            fullDateSpan.innerText = fullDate.toLocaleDateString()
-        }
     }
 }
 
