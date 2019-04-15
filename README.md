@@ -98,7 +98,7 @@ We did get to know some things about him, for example:
 
 * [ ] Write a user scenario.
 * [ ] Explain how the exclusive design principles will work on this demo (as well as how to test it).
-* [ ] How to use Joshua Porters design principles in this excercise. (Explain how the principle works and how to implement it.)
+* [X] How to use Joshua Porters design principles in this excercise. (Explain how the principle works and how to implement it.)
 
 ## Project tips
 
