@@ -4,8 +4,10 @@
 
 1. [Exercises](#Exercises)
     1. [Excersice 1](#Excersice-1)
-2. [Sources](#Sources)
-3. [License](#License)
+2. [Review sessions](#review-session)
+    1. [Week 1](#review-session-week-1)
+3. [Sources](#Sources)
+4. [License](#License)
 
 ## Exercises
 
@@ -54,6 +56,32 @@ Examples of good date pickers that I have found are:
 * [http://haltersweb.github.io/Accessibility/date-picker.html]()
 
 You can [view the 🚀 demo 🚀 here](https://web-design-week1.netlify.com/).
+
+## Review sessions
+
+### Review session week 1
+
+Marijn was unfortunately not present at this moment, which resulted in the group not knowing exactly what he can and what he can't do on the web.
+
+We did get to know some things about him, for example:
+
+* He uses an **Apple MacBook Pro** as his **daily driver**.
+* The only **assistive technology** he uses is **sticky keys**.
+* He only uses one hand to use his computer.
+* Has issues lifting his hand.
+* Uses his left hand.
+* Is a programmer
+* Can use the arrow keys.
+* Can be seen as spastic.
+* Is difficult to understand with his voice.
+
+Tips for the project:
+
+* Things may fail.
+* Make prototypes.
+* Take a look at access keys.
+* Focus on multiple small items.
+* It should initially just work for the user, then be pleasurable to use.
 
 ## Sources
 
