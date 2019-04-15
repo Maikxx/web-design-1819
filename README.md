@@ -3,7 +3,7 @@
 ## Table of Contents
 
 1. [Exercises](#Exercises)
-    1. [Excersice 1](#Excersice-1)
+    1. [Exercise 1](#exercise-1)
 2. [Review sessions](#review-session)
     1. [Week 1](#review-session-week-1)
 3. [Sources](#Sources)
@@ -11,7 +11,7 @@
 
 ## Exercises
 
-### Excersice 1
+### Exercise 1
 
 During this excersise we had to focus on the following points in our newly designed accessible tools:
 
