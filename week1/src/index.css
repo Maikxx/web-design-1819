@@ -120,6 +120,7 @@ header nav {
 header nav a {
     text-decoration: underline;
     transition: .3s ease color;
+    font-size: .75em;
 }
 
 header nav a:focus,
