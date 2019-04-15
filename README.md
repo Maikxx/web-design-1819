@@ -74,6 +74,8 @@ You can [view the 🚀 demo 🚀 here](https://web-design-week1.netlify.com/).
 
 * **Consistency matters**: This principle is relating to the fact that similar elements with similar actions (like links) should look and behave (pretty much) the same. In this application I mainly seperated the links from the buttons in styling. Buttons having a border, while links always have an underline, even if they wouldn't navigate to another page.
 
+* **Progressive disclosure**: This principle means to not bombard a user with all the "elements" needed to complete a step, instead give the user the elements step by step to reduce cognitive load. In this project I decided it would be best for Marijn to split the date picker up in multiple sections, the year, month and day selection "screens".
+
 ## Review sessions
 
 ### Review session week 1
