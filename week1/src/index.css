@@ -129,7 +129,7 @@ header nav a:hover {
 
 h1 {
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
 }
 
 #full-date {
@@ -229,4 +229,10 @@ input {
 #next-year-set::after {
     content: "\00bb";
     margin-left: .25em;
+}
+
+small {
+    font-size: 1em;
+    text-align: center;
+    margin-top: .5em;
 }
