@@ -1,5 +1,9 @@
 # Web Design
 
+## Disclaimer
+
+For privacy reasons I choose not to publish Marijns full name in this repository. Even if I knew he would be fine with it, I wouldn't be since no one has anything to do with him except us.
+
 ## Table of Contents
 
 1. [Exercises](#Exercises)
@@ -64,6 +68,7 @@ You can [view the 🚀 demo 🚀 here](https://web-design-week1.netlify.com/).
 
 #### User scenario
 
+Marijn works as a software developer, while only using his left hand to write code and use the internet. Marijn has an alleged difficulty talking. Marijn uses the web everyday like the rest of us, with only one more assistive technology on hand, called sticky keys. This basically means that when he presses a key, it just continues pressing until he says the computer to quit doing that. He does not use a mouse and when hitting keys he is (probably) very imprecise.
 
 #### Design principles
 
