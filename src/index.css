@@ -63,7 +63,8 @@ body {
     display: flex;
     overflow-x: hidden;
     line-height: 1;
-    background-color: #1B1B1B;
+    background-image: linear-gradient(#008080 0%, #1B1B1B 100%);
+    background-size: cover;
     color: #ffffff;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -230,13 +231,12 @@ input {
 }
 
 #native {
-    visibility: hidden;
-    display: none;
+    opacity: 0;
+    transition: .2s ease opacity;
 }
 
 #native:target {
-    visibility: visible;
-    display: unset;
+    opacity: 1;
 }
 
 #previous-year-set::before {
