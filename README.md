@@ -1,5 +1,7 @@
 # Web Design
 
+[🚀 Demo 🚀](https://web-design-week1.netlify.com/).
+
 ## Disclaimer
 
 For privacy reasons I choose not to publish Marijns full name in this repository. Even if I knew he would be fine with it, I wouldn't be since no one has anything to do with him except us.
@@ -64,8 +66,6 @@ Examples of good date pickers that I have found are:
 * [https://assets.cms.gov/resources/framework/2.0/Pages/datepicker.html]()
 * [http://www.oaa-accessibility.org/examplep/datepicker1/]()
 * [http://haltersweb.github.io/Accessibility/date-picker.html]()
-
-You can [view the 🚀 demo 🚀 here](https://web-design-week1.netlify.com/).
 
 ### Exercises Week 2
 
