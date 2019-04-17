@@ -1,5 +1,24 @@
 export function setupNativeEvents(state) {
+    const nativeLink = document.querySelector(`#native-link`)
     const nativeDatePicker = document.querySelector('#native-date-picker')
+
+    if (nativeLink) {
+        nativeLink.addEventListener('click', (event) => {
+            event.preventDefault()
+            const openSentence = 'Use native date picker'
+            const closeSentence = 'Hide native date picker'
+
+            nativeLink.innerText = nativeLink.innerText === openSentence
+                ? closeSentence
+                : openSentence
+
+            if (window.location.hash.includes('#native')) {
+                window.location.hash = ''
+            } else {
+                window.location.href = '#native'
+            }
+        })
+    }
 
     if (nativeDatePicker) {
         nativeDatePicker.addEventListener('change', ({ target }) => {
