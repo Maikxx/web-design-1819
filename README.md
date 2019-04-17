@@ -9,11 +9,14 @@ For privacy reasons I choose not to publish Marijns full name in this repository
 1. [Exercises](#Exercises)
     * [Exercises Week 1](#exercises-week-1)
     * [Exercises Week 2](#exercises-week-2)
+    * [Exercises Week 3](#exercises-week-3)
 2. [Review sessions](#review-session)
     * [Week 1](#review-session-week-1)
-3. [Sources](#Sources)
-4. [Process](#Process)
-5. [Project tips](#Project-tips)
+    * [Week 2](#review-session-week-2)
+    * [Week 3](#review-session-week-3)
+3. [Process](#Process)
+4. [Project tips](#Project-tips)
+5. [Sources](#Sources)
 6. [License](#License)
 
 ## Exercises
@@ -85,6 +88,12 @@ Marijn is skilled with computers, as he is a programmer, however he is known for
 
 * **Progressive disclosure**: This principle means to not bombard a user with all the "elements" needed to complete a step, instead give the user the elements step by step to reduce cognitive load. In this project I decided it would be best for Marijn to split the date picker up in multiple sections, the year, month and day selection "screens".
 
+#### Further enhance demo of week 1
+
+This week I added some more subtle, but useful features to the date picker, like for example, the ability to smash the keyboards alphabetic keys in order to select a date when it is focussed. This will cause Marijn to miss the selection button less often.
+
+### Exercises Week 3
+
 ## Review sessions
 
 ### Review session week 1
@@ -102,6 +111,10 @@ We did get to know some things about him, for example:
 * Can use the arrow keys.
 * Can be seen as spastic.
 * Is difficult to understand with his voice.
+
+### Review session week 2
+
+### Review session week 3
 
 ## Process
 
