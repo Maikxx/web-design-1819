@@ -48,13 +48,11 @@ function createDayButton(state, buttonContainer) {
                 const fullDate = document.getElementById('full-date')
 
                 if (fullDate) {
-                    if (fullDate) {
-                        fullDate.style.color = '#FF8749'
+                    fullDate.style.color = '#FF8749'
 
-                        setTimeout(() => {
-                            fullDate.style.color = 'white'
-                        }, 200)
-                    }
+                    setTimeout(() => {
+                        fullDate.style.color = 'white'
+                    }, 200)
                 }
             }
         }
