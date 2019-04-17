@@ -232,11 +232,13 @@ input {
 
 #native {
     opacity: 0;
-    transition: .2s ease opacity;
+    transition: .2s ease all;
+    transform: scale(0.1);
 }
 
 #native:target {
     opacity: 1;
+    transform: scale(1);
 }
 
 #previous-year-set::before {
