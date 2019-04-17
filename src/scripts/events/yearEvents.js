@@ -10,10 +10,10 @@ export function setupYearEvents(state) {
     previousYearButton.addEventListener('click', changeSubsetYears('back'))
     nextYearButton.addEventListener('click', changeSubsetYears('forwards'))
 
-    previousYearButton.addEventListener('focus', applyFocusListeners('back'))
-    nextYearButton.addEventListener('focus', applyFocusListeners('forwards'))
+    previousYearButton.addEventListener('focus', applySubsetYearsFocusListener('back'))
+    nextYearButton.addEventListener('focus', applySubsetYearsFocusListener('forwards'))
 
-    function applyFocusListeners(side) {
+    function applySubsetYearsFocusListener(side) {
         return function(event) {
             if (event.target) {
                 event.target.addEventListener('keydown', ({ key }) => {
