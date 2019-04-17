@@ -1,3 +1,7 @@
+const leftSideKeys = ['y', 'u', 'i', 'o', 'p', 'h', 'j', 'k', 'l', 'b', 'n', 'm', '{', ';', '|', ',', '.', '/', '}', '[', ']', ':', '"', '\'', '\\', '<', '>', '?']
+const rightSideKeys = ['t', 'g', 'b', 'v', 'f', 'r', 'e', 'd', 'c', 'w', 's', 'x', 'q', 'a', 'z', '`']
+const eventKeys = [...leftSideKeys, ...rightSideKeys]
+
 export function setupYearEvents(state) {
     const previousYearButton = document.getElementById('previous-year-set')
     const nextYearButton = document.getElementById('next-year-set')
@@ -5,6 +9,21 @@ export function setupYearEvents(state) {
 
     previousYearButton.addEventListener('click', changeSubsetYears('back'))
     nextYearButton.addEventListener('click', changeSubsetYears('forwards'))
+
+    previousYearButton.addEventListener('focus', applyFocusListeners('back'))
+    nextYearButton.addEventListener('focus', applyFocusListeners('forwards'))
+
+    function applyFocusListeners(side) {
+        return function(event) {
+            if (event.target) {
+                event.target.addEventListener('keydown', ({ key }) => {
+                    if (eventKeys.includes(key)) {
+                        changeSubsetYears(side)()
+                    }
+                })
+            }
+        }
+    }
 
     function createYearButtons(fromYear) {
         const currentYear = fromYear || new Date().getFullYear()
