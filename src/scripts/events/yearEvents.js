@@ -1,6 +1,4 @@
-const leftSideKeys = ['y', 'u', 'i', 'o', 'p', 'h', 'j', 'k', 'l', 'b', 'n', 'm', '{', ';', '|', ',', '.', '/', '}', '[', ']', ':', '"', '\'', '\\', '<', '>', '?']
-const rightSideKeys = ['t', 'g', 'b', 'v', 'f', 'r', 'e', 'd', 'c', 'w', 's', 'x', 'q', 'a', 'z', '`']
-const eventKeys = [...leftSideKeys, ...rightSideKeys]
+import { eventKeys } from './eventKeys'
 
 export function setupYearEvents(state) {
     const previousYearButton = document.getElementById('previous-year-set')
@@ -40,29 +38,42 @@ export function setupYearEvents(state) {
         buttonBlock.classList.add('ButtonBlock')
         buttonBlock.setAttribute('href', '#month')
         buttonBlock.innerText = year
-        buttonBlock.addEventListener('click', ({target}) => {
-            state.set('selectedYear', Number(target.innerText))
+        buttonBlock.addEventListener('click', selectYear)
 
-            const yearSpan = document.getElementById('YYYY')
+        buttonBlock.addEventListener('focus', onButtonFocus)
+        buttonContainer.appendChild(buttonBlock)
+    }
 
-            if (yearSpan) {
-                yearSpan.innerText = Number(target.innerText)
+    function onButtonFocus({ target }) {
+        if (target) {
+            target.addEventListener('keydown', ({ key }) => {
+                if (eventKeys.includes(key)) {
+                    target.click()
+                }
+            })
+        }
+    }
 
-                const fullDate = document.getElementById('full-date')
+    function selectYear({ target }) {
+        state.set('selectedYear', Number(target.innerText))
 
+        const yearSpan = document.getElementById('YYYY')
+
+        if (yearSpan) {
+            yearSpan.innerText = Number(target.innerText)
+
+            const fullDate = document.getElementById('full-date')
+
+            if (fullDate) {
                 if (fullDate) {
-                    if (fullDate) {
-                        fullDate.style.color = '#FF8749'
+                    fullDate.style.color = '#FF8749'
 
-                        setTimeout(() => {
-                            fullDate.style.color = 'white'
-                        }, 200)
-                    }
+                    setTimeout(() => {
+                        fullDate.style.color = 'white'
+                    }, 200)
                 }
             }
-        })
-
-        buttonContainer.appendChild(buttonBlock)
+        }
     }
 
     function changeSubsetYears(direction) {

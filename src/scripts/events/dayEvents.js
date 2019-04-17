@@ -1,4 +1,5 @@
 import { times } from 'lodash'
+import { eventKeys } from './eventKeys'
 
 export function setupDayEvents(state) {
     setupDayButtons(state)
@@ -26,9 +27,17 @@ function createDayButton(state, buttonContainer) {
         buttonBlock.classList.add('ButtonBlock')
         buttonBlock.classList.add('ButtonBlock--tiny')
         buttonBlock.setAttribute('href', '#')
-        buttonBlock.addEventListener('click', (event) => {
-            event.preventDefault()
+        buttonBlock.addEventListener('click', onDayButtonClick(day))
+        buttonBlock.addEventListener('focus', onButtonFocus)
 
+        buttonBlock.innerText = String(day + 1).padStart(2, '0')
+
+        buttonContainer.appendChild(buttonBlock)
+    }
+
+    function onDayButtonClick(day) {
+        return function(event) {
+            event.preventDefault()
             state.set('selectedDay', day)
 
             const daySpan = document.getElementById('dd')
@@ -48,11 +57,17 @@ function createDayButton(state, buttonContainer) {
                     }
                 }
             }
-        })
+        }
+    }
 
-        buttonBlock.innerText = String(day + 1).padStart(2, '0')
-
-        buttonContainer.appendChild(buttonBlock)
+    function onButtonFocus({ target }) {
+        if (target) {
+            target.addEventListener('keydown', ({ key }) => {
+                if (eventKeys.includes(key)) {
+                    target.click()
+                }
+            })
+        }
     }
 }
 
