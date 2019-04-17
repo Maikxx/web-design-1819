@@ -13,7 +13,7 @@
         <header>
             <nav>
                 <a href="#native" id="native-link">Use native date picker</a>
-                <h1>Select a flight departure date</h1>
+                <h1>Flight picker</h1>
                 <div id="full-date">
                     Selected date:&nbsp;
                     <span id="YYYY">YYYY</span>
@@ -24,6 +24,34 @@
                 </div>
             </nav>
         </header>
+        <section>
+            <h2>What is your type of flight?</h2>
+            <small>(Use the arrow keys to navigate and press enter to select)</small>
+            <div class="Row mt-2">
+                <label for="type-of-flight-retour" class="Switch Switch--selected">
+                    Retour
+                    <input name="type-of-flight" value="retour" id="type-of-flight-retour" type="radio" checked>
+                </label>
+                <label for="type-of-flight-one-way" class="Switch">
+                    One-way
+                    <input name="type-of-flight" value="one-way" id="type-of-flight-one-way" type="radio">
+                </label>
+            </div>
+        </section>
+        <section id="departure-location">
+            <h2>Where are you departing from?</h2>
+            <label class="Row mt-2 Field">
+                <span class="Field__title">Departure airport</span>
+                <input type="text" name="departure-airport" id="departure-airport" class="Field__input">
+            </label>
+        </section>
+        <section id="arrival-location">
+            <h2>Where are you headed?</h2>
+            <label class="Row mt-2 Field">
+                <span class="Field__title">Destination airport</span>
+                <input type="text" name="destination-airport" id="destination-airport" class="Field__input">
+            </label>
+        </section>
         <section id="year">
             <h2>Select a year</h2>
             <small>(Tab to navigate and press any alphabetic key, enter or space to select)</small>

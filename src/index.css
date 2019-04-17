@@ -291,3 +291,36 @@ small {
     font-size: 2em;
     padding: .25em .5em;
 }
+
+.Row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Switch {
+    padding: 1em 2em;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    transition: .2s ease border-color;
+    font-size: 4em;
+}
+
+.Switch--selected,
+.Switch:hover,
+.Switch:focus-within {
+    border-color: #FF8749;
+}
+
+.Switch + .Switch {
+    margin-left: 1em;
+}
+
+.Switch input {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    opacity: 0;
+}
