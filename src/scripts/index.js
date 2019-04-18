@@ -5,10 +5,13 @@ import { setupMonthEvents } from './events/monthEvents'
 import { setupDayEvents } from './events/dayEvents'
 import { setupNativeEvents } from './events/nativeEvents'
 import { setupTypeOfFlightEvents } from './events/typeOfFlightEvents'
+import { setupAirportEvents } from './events/airportEvents'
 
 (() => {
     const state = new State({
         selectedTypeOfFlight: 'retour',
+        departureAirport: '',
+        destinationAirport: '',
         selectedYear: new Date().getFullYear(),
         selectedMonth: new Date().getMonth(),
         selectedDay: new Date().getDate(),
@@ -19,4 +22,5 @@ import { setupTypeOfFlightEvents } from './events/typeOfFlightEvents'
     setupDayEvents(state)
     setupNativeEvents(state)
     setupTypeOfFlightEvents(state)
+    setupAirportEvents(state)
 })()
