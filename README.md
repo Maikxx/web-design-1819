@@ -114,6 +114,25 @@ We did get to know some things about him, for example:
 
 ### Review session week 2
 
+#### General
+
+* Marijn regularly misses the keys he wants to actually hit.
+* Marijn never uses tab to navigate a page, instead, uses the spacebar and arrow keys.
+* Uses his trackpad a lot as well.
+* Can use the native drag and drop system.
+* Trello is navigatable by keyboard.
+* Very difficult to understand by voice.
+* Uses the touchbar of his MacBook.
+* Thinks for a long time before he types something.
+* Allways make everything case insensitive.
+
+#### Personal
+
+* Thinks the idea is great, but needs some minor tweaks.
+* Would like to see the date buttons closer next to each other.
+* The buttons (especially the days) should be bigger.
+* The page should be more concentrated together.
+
 ### Review session week 3
 
 ## Process
