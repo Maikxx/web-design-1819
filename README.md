@@ -154,9 +154,10 @@ The personal feedback above is related to these screenshots.
 
 ## Process
 
+* [ ] Explain how the exclusive design principles will work on this demo (as well as how to test it).
+* [ ] Enhance the demo of week 2 with the feedback from the review session.
 * [X] Create an initial demo for week 1.
 * [X] Write a user scenario.
-* [ ] Explain how the exclusive design principles will work on this demo (as well as how to test it).
 * [X] How to use Joshua Porters design principles in this excercise. (Explain how the principle works and how to implement it.)
 
 ## Project tips
