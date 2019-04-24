@@ -135,7 +135,7 @@ We did get to know some things about him, for example:
 
 #### Personal
 
-* [ ] Thinks the idea is great, but needs some minor tweaks.
+* [X] Thinks the idea is great, but needs some minor tweaks.
 * [X] Would like to see the date buttons closer next to each other.
 * [X] The buttons (especially the days) should be bigger.
 * [X] The page should be more concentrated together.
@@ -159,9 +159,21 @@ The personal feedback above is related to these screenshots.
 
 ### Review session week 3
 
+#### Updated application
+
+The screenshots below show the updated application, where the feedback from week 2 is took into account.
+
+![Application of week 3 - Screenshot 1](./docs/week-3-1.png)
+
+![Application of week 3 - Screenshot 2](./docs/week-3-2.png)
+
+![Application of week 3 - Screenshot 3](./docs/week-3-3.png)
+
+![Application of week 3 - Screenshot 4](./docs/week-3-4.png)
+
 ## Process
 
-* [ ] Enhance the demo of week 2 with the feedback from the review session.
+* [X] Enhance the demo of week 2 with the feedback from the review session.
 * [X] Create an initial demo for week 1.
 * [X] Explain how the exclusive design principles will work on this demo (as well as how to test it).
 * [X] How to use Joshua Porters design principles in this excercise. (Explain how the principle works and how to implement it.)
