@@ -135,10 +135,10 @@ We did get to know some things about him, for example:
 
 #### Personal
 
-* Thinks the idea is great, but needs some minor tweaks.
-* Would like to see the date buttons closer next to each other.
-* The buttons (especially the days) should be bigger.
-* The page should be more concentrated together.
+* [ ] Thinks the idea is great, but needs some minor tweaks.
+* [X] Would like to see the date buttons closer next to each other.
+* [X] The buttons (especially the days) should be bigger.
+* [ ] The page should be more concentrated together.
 
 #### Application tested
 
