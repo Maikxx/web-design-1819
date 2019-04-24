@@ -133,6 +133,23 @@ We did get to know some things about him, for example:
 * The buttons (especially the days) should be bigger.
 * The page should be more concentrated together.
 
+#### Application tested
+
+Below, you can see the screenshots of the application that I tested in this weeks review session.
+The personal feedback above is related to these screenshots.
+
+![Application of week 2 - Screenshot 1](./docs/week-2-1.png)
+
+![Application of week 2 - Screenshot 2](./docs/week-2-2.png)
+
+![Application of week 2 - Screenshot 3](./docs/week-2-3.png)
+
+![Application of week 2 - Screenshot 4](./docs/week-2-4.png)
+
+![Application of week 2 - Screenshot 5](./docs/week-2-5.png)
+
+![Application of week 2 - Screenshot 6](./docs/week-2-6.png)
+
 ### Review session week 3
 
 ## Process
