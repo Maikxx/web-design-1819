@@ -114,7 +114,7 @@ We did get to know some things about him, for example:
 * He only uses one hand to use his computer.
 * Has issues lifting his hand.
 * Uses his left hand.
-* Is a programmer
+* Is a programmer.
 * Can use the arrow keys.
 * Can be seen as spastic.
 * Is difficult to understand with his voice.

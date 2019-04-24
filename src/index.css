@@ -135,12 +135,11 @@ header nav a:hover {
 
 h1 {
     font-size: 1em;
-    text-align: center;
 }
 
-h2 {
+h2, h3 {
+    font-size: 2em;
     text-align: center;
-    font-size: 4em;
 }
 
 #full-date {
@@ -151,8 +150,7 @@ h2 {
     justify-content: flex-end;
 }
 
-.ButtonContainer,
-.NavigationLinks {
+.ButtonContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -161,12 +159,21 @@ h2 {
     flex-wrap: wrap;
 }
 
+.NavigationLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1em;
+}
+
 .ButtonBlock {
     font-size: 3.5em;
     display: block;
-    text-decoration: underline;
-    border-radius: 4px;
-    transition: .2s color;
+    text-decoration: none;
+    border: 2px solid white;
+    transition: .2s all;
     width: 20%;
     padding: 1em;
     text-align: center;
@@ -174,12 +181,15 @@ h2 {
 }
 
 .ButtonBlock:hover,
-.ButtonBlock:focus {
+.ButtonBlock:focus,
+.NavigationLinks button:hover,
+.NavigationLinks button:focus {
     color: #FF8749;
 }
 
-.ButtonBlock + .ButtonBlock {
-    margin-left: .5em;
+.ButtonContainer--month .ButtonBlock {
+    padding: 2em 1em;
+    font-size: 2.5em;
 }
 
 .ButtonBlock--small {
@@ -196,14 +206,12 @@ h2 {
     max-width: 15em;
     padding: 1em 2em;
     transition: .2s all;
-    border: 1px solid #ffffff;
-    border-radius: 4px;
-    margin-top: 1em;
+    border: 2px solid #ffffff;
     text-align: center;
 }
 
 .NavigationLinks button + button {
-    margin-left: 1em;
+    margin-left: .5em;
 }
 
 .ButtonBlock:hover,
@@ -260,11 +268,8 @@ input {
     margin-left: .25em;
 }
 
-small {
-    font-size: 1em;
-    text-align: center;
-    margin-top: .5em;
-    margin-bottom: 1em;
+.mt-1 {
+    margin-top: 1em;
 }
 
 .mt-2 {
@@ -280,6 +285,8 @@ small {
 
 .Field__title {
     font-size: 2em;
+    min-width: 9em;
+    text-align: left;
 }
 
 .Field__input {
@@ -302,19 +309,14 @@ small {
     padding: 1em 2em;
     cursor: pointer;
     border: 2px solid #ffffff;
-    border-radius: 4px;
     transition: .2s ease border-color;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .Switch--selected,
 .Switch:hover,
 .Switch:focus-within {
     border-color: #FF8749;
-}
-
-.Switch + .Switch {
-    margin-left: 1em;
 }
 
 .Switch input {

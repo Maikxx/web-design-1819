@@ -3,7 +3,6 @@ import { setupYearEvents } from './events/yearEvents'
 import { State } from './state'
 import { setupMonthEvents } from './events/monthEvents'
 import { setupDayEvents } from './events/dayEvents'
-import { setupNativeEvents } from './events/nativeEvents'
 import { setupTypeOfFlightEvents } from './events/typeOfFlightEvents'
 import { setupAirportEvents } from './events/airportEvents'
 
@@ -20,7 +19,6 @@ import { setupAirportEvents } from './events/airportEvents'
     setupYearEvents(state)
     setupMonthEvents(state)
     setupDayEvents(state)
-    setupNativeEvents(state)
     setupTypeOfFlightEvents(state)
     setupAirportEvents(state)
 })()

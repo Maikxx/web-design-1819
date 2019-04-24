@@ -36,7 +36,6 @@ export function setupTypeOfFlightEvents(state) {
             })
 
             event.target.parentNode.classList.add('Switch--selected')
-            window.location.hash = '#departure-location'
         }
     }
 }

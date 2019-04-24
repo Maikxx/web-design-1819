@@ -12,7 +12,6 @@
     <main>
         <header>
             <nav>
-                <a href="#native" id="native-link">Use native date picker</a>
                 <h1>Flight picker</h1>
                 <div id="full-date">
                     Selected date:&nbsp;
@@ -25,37 +24,29 @@
             </nav>
         </header>
         <section>
-            <h2>What is your type of flight?</h2>
-            <small>(Use the arrow keys to navigate and press enter to select)</small>
+            <h2>Flight details</h2>
             <div class="Row mt-2">
                 <label for="type-of-flight-retour" class="Switch Switch--selected">
-                    Retour
+                    Retour flight
                     <input name="type-of-flight" value="retour" id="type-of-flight-retour" type="radio" checked>
                 </label>
                 <label for="type-of-flight-one-way" class="Switch">
-                    One-way
+                    One-way flight
                     <input name="type-of-flight" value="one-way" id="type-of-flight-one-way" type="radio">
                 </label>
             </div>
-        </section>
-        <section id="departure-location">
-            <h2>Where are you departing from?</h2>
-            <label class="Row mt-2 Field">
+            <label class="mt-1 Field">
                 <span class="Field__title">Departure airport</span>
-                <input type="text" name="departure-airport" id="departure-airport" class="Field__input">
+                <input type="text" name="departure-airport" id="departure-airport" class="Field__input" placeholder="Amsterdam">
             </label>
-        </section>
-        <section id="arrival-location">
-            <h2>Where are you headed?</h2>
-            <label class="Row mt-2 Field">
+            <label class="mt-1 Field">
                 <span class="Field__title">Destination airport</span>
-                <input type="text" name="destination-airport" id="destination-airport" class="Field__input">
+                <input type="text" name="destination-airport" id="destination-airport" class="Field__input" placeholder="Barcelona">
             </label>
         </section>
         <section id="year">
             <h2>Select a year</h2>
-            <small>(Tab to navigate and press any alphabetic key, enter or space to select)</small>
-            <div class="ButtonContainer ButtonContainer--year"></div>
+            <div class="ButtonContainer ButtonContainer--year mt-2"></div>
             <div class="NavigationLinks">
                 <button type="button" id="previous-year-set"></button>
                 <button type="button" id="next-year-set"></button>
@@ -63,87 +54,87 @@
         </section>
         <section id="month">
             <h2>Select a month</h2>
-            <div class="ButtonContainer ButtonContainer--month">
+            <div class="mt-2 ButtonContainer ButtonContainer--month">
                 <a
                     href="#day"
-                    class="ButtonBlock ButtonBlock--small"
+                    class="ButtonBlock"
                     data-value="0"
                 >
                     January
                 </a>
                 <a
                     href="#day"
-                    class="ButtonBlock ButtonBlock--small"
+                    class="ButtonBlock"
                     data-value="1"
                 >
                     February
                 </a>
                 <a
                     href="#day"
-                    class="ButtonBlock ButtonBlock--small"
+                    class="ButtonBlock"
                     data-value="2"
                 >
                     March
                 </a>
                 <a
                     href="#day"
-                    class="ButtonBlock ButtonBlock--small"
+                    class="ButtonBlock"
                     data-value="3"
                 >
                     April
                 </a>
                 <a
                     href="#day"
-                    class="ButtonBlock ButtonBlock--small"
+                    class="ButtonBlock"
                     data-value="4"
                 >
                     May
                 </a>
                 <a
                     href="#day"
-                    class="ButtonBlock ButtonBlock--small"
+                    class="ButtonBlock"
                     data-value="5"
                 >
                     June
                 </a>
                 <a
                     href="#day"
-                    class="ButtonBlock ButtonBlock--small"
+                    class="ButtonBlock"
                     data-value="6"
                 >
                     July
                 </a>
                 <a
                     href="#day"
-                    class="ButtonBlock ButtonBlock--small"
+                    class="ButtonBlock"
                     data-value="7"
                 >
                     August
                 </a>
                 <a
                     href="#day"
-                    class="ButtonBlock ButtonBlock--small"
+                    class="ButtonBlock"
                     data-value="8"
                 >
                     September
                 </a>
                 <a
                     href="#day"
-                    class="ButtonBlock ButtonBlock--small"
+                    class="ButtonBlock"
                     data-value="9"
                 >
                     Oktober
                 </a>
                 <a
                     href="#day"
-                    class="ButtonBlock ButtonBlock--small"
+                    class="ButtonBlock"
                     data-value="10"
                 >
                     November
                 </a>
                 <a
                     href="#day"
-                    class="ButtonBlock ButtonBlock--small"
+                    class="ButtonBlock"
                     data-value="11"
                 >
                     December
@@ -152,18 +143,7 @@
         </section>
         <section id="day">
             <h2>Select a day</h2>
-            <div class="ButtonContainer ButtonContainer--day"></div>
-        </section>
-        <section id="native">
-            <h2>Select a date below</h2>
-            <label class="mt-2 Field">
-                <span class="Field__title">Date</span>
-                <input
-                    type="date"
-                    class="Field__input"
-                    id="native-date-picker"
-                >
-            </label>
+            <div class="mt-2 ButtonContainer ButtonContainer--day"></div>
         </section>
     </main>
     <script src="./src/scripts/index.js"></script>
