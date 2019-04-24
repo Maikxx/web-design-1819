@@ -121,6 +121,23 @@ header nav > * {
     width: 33.33%;
 }
 
+.Button {
+    font-size: 3.5em;
+    display: block;
+    text-decoration: none;
+    border: 2px solid white;
+    transition: .2s all;
+    padding: 1em 2em;
+    text-align: center;
+    margin-top: .5em;
+}
+
+.Button:hover,
+.Button:focus {
+    color: #FF8749;
+    border-color: #FF8749;
+}
+
 header nav a {
     text-decoration: underline;
     transition: .3s ease color;
