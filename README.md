@@ -11,7 +11,6 @@ For privacy reasons I choose not to publish Marijns full name in this repository
 1. [Exercises](#Exercises)
     * [Exercises Week 1](#exercises-week-1)
     * [Exercises Week 2](#exercises-week-2)
-    * [Exercises Week 3](#exercises-week-3)
 2. [Review sessions](#review-session)
     * [Week 1](#review-session-week-1)
     * [Week 2](#review-session-week-2)
@@ -88,11 +87,19 @@ Marijn is skilled with computers, as he is a programmer, however he is known for
 
 * **Progressive disclosure**: This principle means to not bombard a user with all the "elements" needed to complete a step, instead give the user the elements step by step to reduce cognitive load. In this project I decided it would be best for Marijn to split the date picker up in multiple sections, the year, month and day selection "screens".
 
+#### Exclusive design principles
+
+* **Study situation**: In this project we study how Marijn uses the web and especially the product that we design for him in these three weeks. We can do that, because Marijn tagged along for two review sessions to test our applications at first hand. This meant that we can see what he does while using his computer and how we can make our applications even better for him. We can test if we studied his situation well enough, by having another review session with him the next time to validate our changes.
+
+* **Ignore conventions**: This principle pretty much means to ignore the conventions that you know and love, and try some new things, especially created for a single user. Breaking conventions means, for example not using existing design principles and native browser features, such as the `<input type="date">` HTML element. In this application I tried to ignore pretty a lot of conventions, like not using the native date picker and building my own especially for Marijn.
+
+* **Prioritise identity**: This principle is less on the technical side, but more on the concepting side of the application. For example, Marijn wants to have full control over the features that we make for him in these few weeks. An example of something in this application that prioritises his identitiy is the fact that he had made clear that he dislikes the travel planners from the big travel companies. I decided to take this into account and focus on creating something that focusses on travel planning.
+
+* **Add nonsense**: This principle basically means to make the application from functional to fun. Currently, there are not a lot of fun things in the application, for me atleast, however, Marijn expressed that he thinks it is fun, as stated in the first review session. However, I want to add more fun things to the application to oblige fully by this principle.
+
 #### Further enhance demo of week 1
 
 This week I added some more subtle, but useful features to the date picker, like for example, the ability to smash the keyboards alphabetic keys in order to select a date when it is focussed. This will cause Marijn to miss the selection button less often.
-
-### Exercises Week 3
 
 ## Review sessions
 
@@ -154,11 +161,11 @@ The personal feedback above is related to these screenshots.
 
 ## Process
 
-* [ ] Explain how the exclusive design principles will work on this demo (as well as how to test it).
 * [ ] Enhance the demo of week 2 with the feedback from the review session.
 * [X] Create an initial demo for week 1.
-* [X] Write a user scenario.
+* [X] Explain how the exclusive design principles will work on this demo (as well as how to test it).
 * [X] How to use Joshua Porters design principles in this excercise. (Explain how the principle works and how to implement it.)
+* [X] Write a user scenario.
 
 ## Project tips
 
