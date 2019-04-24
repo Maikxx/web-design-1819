@@ -81,8 +81,7 @@ body main {
 }
 
 body main section {
-    padding: 10em 2em;
-    height: 100vh;
+    padding: 4em 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
