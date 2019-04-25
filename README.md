@@ -121,7 +121,7 @@ We did get to know some things about him, for example:
 
 ### Review session week 2
 
-#### General
+#### General feedback
 
 * Marijn regularly misses the keys he wants to actually hit.
 * Marijn never uses tab to navigate a page, instead, uses the spacebar and arrow keys.
@@ -133,7 +133,7 @@ We did get to know some things about him, for example:
 * Thinks for a long time before he types something.
 * Allways make everything case insensitive.
 
-#### Personal
+#### Personal feedback
 
 * [X] Thinks the idea is great, but needs some minor tweaks.
 * [X] Would like to see the date buttons closer next to each other.
@@ -170,6 +170,34 @@ The screenshots below show the updated application, where the feedback from week
 ![Application of week 3 - Screenshot 3](./docs/week-3-3.png)
 
 ![Application of week 3 - Screenshot 4](./docs/week-3-4.png)
+
+#### General feedback
+
+* Wants to have clear feedback on the actions he performs.
+* Prefers to have keys close next to each other over those that are far out of each other.
+* Searches for the right spot with his hand the whole time.
+* Uses VI to develop on a day to day bases, this has, according to him, a good keyboard layout.
+* Joystick is not really a good solution, since it is not solid. When it is, it could be useful.
+* Likes to use the enter key to perform actions on the page.
+
+#### Personal feedback
+
+* The button sizes are perfect now for his liking.
+* Unclear which buttons are currently selected (this is due to the fact that this feature was suddenly broken).
+* On his larger screen, after selecting a month, the page does not jump to the next strip of the page, which was a nice edge case that I had not thought about, since I don't have a screen that large in possesion.
+* Would prefer to use this over the native date picker if it works fully. It can be hidden behind a button to opt into.
+* The centration of the page is way better now (everything is more centered and the page is less long).
+* Would like it vertically even closer to eachother.
+
+#### Further enhancements
+
+These features are hypothetical only, since I am part of team Marijn, which caused us to not have any time after this third review session to improve the feedback we had received, unlike other teams.
+
+The things that I would improve in this concept are listed below:
+
+* [ ] Apply **working** active styles to the page to make clear what Marijn has selected.
+* [ ] Implement the flight search ability in a smarter way.
+* [ ] Make the site more response, which would eliminate the issue Marijn was having with his larger display.
 
 ## Process
 
