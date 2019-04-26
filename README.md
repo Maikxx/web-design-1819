@@ -196,10 +196,20 @@ These features are hypothetical only, since I am part of team Marijn, which caus
 The things that I would improve in this concept are listed below:
 
 * [ ] Add (more) nonsense, like animations, weird key combinates used in VI and more programmer easter eggs.
-* [ ] Add a programmer font.
+* [X] Add a programmer font.
 * [X] Apply **working** active styles to the page to make clear what Marijn has selected.
 * [ ] Implement the flight search ability in a smarter way.
 * [ ] Make the site more response, which would eliminate the issue Marijn was having with his larger display.
+
+#### Post review updates
+
+As you can see in these images I have updated the styling a bit to make it more Marijn specific.
+
+![Update 1](./docs/week-3-updated-1.png)
+
+![Update 2](./docs/week-3-updated-3.png)
+
+![Update 3](./docs/week-3-updated-3.png)
 
 ## Process
 
