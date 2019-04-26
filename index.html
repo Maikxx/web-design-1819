@@ -12,7 +12,7 @@
     <main>
         <header>
             <nav>
-                <h1>Flight picker</h1>
+                <h1>Metal event flight picker</h1>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.996 511.996" width="50" height="50" id="WorldGlobe">
                     <circle cx="256" cy="264.58" r="187.73" fill="#1081e0"/>
                     <path d="M334.771 94.18l-1.971-.265s19.908 47.642 0 59.733l-20.574 8.226c-12.143 4.855-20.54 16-22.076 28.979-.051.401-.094.794-.154 1.195-1.835 13.321-19.823 16.521-26.743 4.992l-8.474-14.123c-3.2-5.333-11.051-4.983-13.687.657-6.682 14.268-16.521 37.76-18.765 56.602-.529 4.403.282 8.841 2.261 12.809l9.839 19.678c2.807 5.615 7.091 10.308 12.407 13.662 7.603 4.796 19.038 12.868 26.743 22.178 8.03 9.694 19.567 15.812 32.154 15.812.785 0 1.417.623 1.365 1.408-.58 9.02-2.859 58.325 17.169 58.325 0 0 42.667 8.175 42.667-59.733l14.199-63.906c1.033-4.651 7.211-5.649 9.66-1.57l8.849 14.754c5.325 8.875 17.152 11.187 25.438 4.983l18.654-13.995c.001-75.536-44.637-140.62-108.961-170.401z" fill="#61b872"/>
@@ -49,12 +49,12 @@
                 </label>
             </div>
             <label class="mt-1 Field">
-                <span class="Field__title">Departure airport</span>
-                <input type="text" name="departure-airport" id="departure-airport" class="Field__input" placeholder="Amsterdam">
+                <span class="Field__title">Departure airport <small>(based on current location)</small></span>
+                <input type="text" name="departure-airport" id="departure-airport" class="Field__input" placeholder="Eindhoven" value="Eindhoven">
             </label>
             <label class="mt-1 Field">
-                <span class="Field__title">Destination airport</span>
-                <input type="text" name="destination-airport" id="destination-airport" class="Field__input" placeholder="Barcelona">
+                <span class="Field__title">Destination airport <small>(based on upcoming events)</small></span>
+                <input type="text" name="destination-airport" id="destination-airport" class="Field__input" placeholder="Prague" value="Prague">
             </label>
         </section>
         <section id="year">
