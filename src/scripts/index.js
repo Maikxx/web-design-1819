@@ -5,12 +5,13 @@ import { setupMonthEvents } from './events/monthEvents'
 import { setupDayEvents } from './events/dayEvents'
 import { setupTypeOfFlightEvents } from './events/typeOfFlightEvents'
 import { setupAirportEvents } from './events/airportEvents'
+import { setupDepartureEvents } from './events/departureEvents'
 import anime from 'animejs'
 
 (() => {
     const state = new State({
         selectedTypeOfFlight: 'retour',
-        departureAirport: '',
+        departureAirport: 'Amsterdam',
         destinationAirport: '',
         selectedYear: new Date().getFullYear(),
         selectedMonth: new Date().getMonth(),
@@ -22,6 +23,7 @@ import anime from 'animejs'
     setupDayEvents(state)
     setupTypeOfFlightEvents(state)
     setupAirportEvents(state)
+    setupDepartureEvents(state)
 
     anime({
         targets: '#WorldGlobe',

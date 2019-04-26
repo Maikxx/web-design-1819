@@ -48,10 +48,19 @@
                     <input name="type-of-flight" value="one-way" id="type-of-flight-one-way" type="radio">
                 </label>
             </div>
-            <label class="mt-1 Field">
-                <span class="Field__title">Departure airport <small>(based on current location)</small></span>
-                <input type="text" name="departure-airport" id="departure-airport" class="Field__input" placeholder="Eindhoven" value="Eindhoven">
-            </label>
+            <div class="mt-2">
+                <h3>Departure location</h3>
+                <div class="Row mt-2">
+                    <label for="departure-location-amsterdam" class="Switch Switch--selected">
+                        Amsterdam
+                        <input name="departure-location" value="amsterdam" id="departure-location-amsterdam" type="radio" checked>
+                    </label>
+                    <label for="departure-location-eindhoven" class="Switch">
+                        Eindhoven
+                        <input name="departure-location" value="eindhoven" id="departure-location-eindhoven" type="radio">
+                    </label>
+                </div>
+            </div>
             <label class="mt-1 Field">
                 <span class="Field__title">Destination airport <small>(based on upcoming events)</small></span>
                 <input type="text" name="destination-airport" id="destination-airport" class="Field__input" placeholder="Prague" value="Prague">
