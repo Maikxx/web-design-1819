@@ -62,6 +62,21 @@ export function setupYearEvents(state) {
         if (yearSpan) {
             yearSpan.innerText = Number(target.innerText)
 
+            const buttonContainer = document.querySelector('.ButtonContainer--year')
+            const buttons = buttonContainer.querySelectorAll('.ButtonBlock')
+
+            if (buttons) {
+                buttons.forEach(button => {
+                    button.classList.remove('active')
+                })
+
+                const { target } = event
+
+                if (target) {
+                    target.classList.add('active')
+                }
+            }
+
             const fullDate = document.getElementById('full-date')
 
             if (fullDate) {

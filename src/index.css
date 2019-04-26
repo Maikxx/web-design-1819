@@ -200,7 +200,8 @@ h2, h3 {
 .ButtonBlock:hover,
 .ButtonBlock:focus,
 .NavigationLinks button:hover,
-.NavigationLinks button:focus {
+.NavigationLinks button:focus,
+.ButtonBlock.active {
     color: #FF8749;
 }
 
@@ -234,7 +235,8 @@ h2, h3 {
 .ButtonBlock:hover,
 .ButtonBlock:focus,
 .NavigationLinks button:hover,
-.NavigationLinks button:focus {
+.NavigationLinks button:focus,
+.ButtonBlock.active {
     border-color: #FF8749;
 }
 

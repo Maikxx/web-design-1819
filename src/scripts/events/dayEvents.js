@@ -40,6 +40,21 @@ function createDayButton(state, buttonContainer) {
             event.preventDefault()
             state.set('selectedDay', day)
 
+            const buttonContainer = document.querySelector('.ButtonContainer--day')
+            const buttons = buttonContainer.querySelectorAll('.ButtonBlock')
+
+            if (buttons) {
+                buttons.forEach(button => {
+                    button.classList.remove('active')
+                })
+
+                const { target } = event
+
+                if (target) {
+                    target.classList.add('active')
+                }
+            }
+
             const daySpan = document.getElementById('dd')
 
             if (daySpan) {

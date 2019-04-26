@@ -25,9 +25,24 @@ export function setupMonthEvents(state) {
     }
 
     function onMonthClick(button) {
-        return function() {
+        return function(event) {
             const changeMonthEvent = new CustomEvent('monthChanged')
             const monthNumber = Number(button.getAttribute('data-value'))
+
+            const buttonContainer = document.querySelector('.ButtonContainer--month')
+            const buttons = buttonContainer.querySelectorAll('.ButtonBlock')
+
+            if (buttons) {
+                buttons.forEach(button => {
+                    button.classList.remove('active')
+                })
+
+                const { target } = event
+
+                if (target) {
+                    target.classList.add('active')
+                }
+            }
 
             if (typeof monthNumber !== 'number') {
                 throw new Error('The button clicked does not have a month number...')
