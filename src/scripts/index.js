@@ -3,7 +3,7 @@ import { setupYearEvents } from './events/yearEvents'
 import { State } from './state'
 import { setupMonthEvents } from './events/monthEvents'
 import { setupDayEvents } from './events/dayEvents'
-import { setupTypeOfFlightEvents } from './events/typeOfFlightEvents'
+// import { setupTypeOfFlightEvents } from './events/typeOfFlightEvents'
 import { setupAirportEvents } from './events/airportEvents'
 import anime from 'animejs'
 
@@ -20,7 +20,7 @@ import anime from 'animejs'
     setupYearEvents(state)
     setupMonthEvents(state)
     setupDayEvents(state)
-    setupTypeOfFlightEvents(state)
+    // setupTypeOfFlightEvents(state)
     setupAirportEvents(state)
 
     anime({
