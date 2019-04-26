@@ -198,8 +198,7 @@ The things that I would improve in this concept are listed below:
 * [ ] Add (more) nonsense, like animations, weird key combinates used in VI and more programmer easter eggs.
 * [X] Add a programmer font.
 * [X] Apply **working** active styles to the page to make clear what Marijn has selected.
-* [ ] Implement the flight search ability in a smarter way.
-* [ ] Make the site more response, which would eliminate the issue Marijn was having with his larger display.
+* [ ] Add default flight options based on current location and the location of an upcoming event abroad where bands are present which Marijn likes.
 
 #### Post review updates
 
